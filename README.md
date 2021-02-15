@@ -17,5 +17,9 @@ vi /s3/sync.sh
 chmod +x /s3/sync.sh
 
 # Let's try and run the script
+/s3/sync.sh
+
+# Now edit the crontab job (The below cronjob runs every hour)
+0 * * * * /s3/sync.sh > /s3/sync.log
 
 
