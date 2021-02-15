@@ -2,7 +2,7 @@
 yum install awscli
 
 # Configre AWS cli
-aws configre
+aws configure
 
 # Create local s3 backup directory
 mkdir -p /s3/{BUCKET NAME}
